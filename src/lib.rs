@@ -5,8 +5,8 @@
 //! * In addtion to actual times, [`DateTime::Earliest`] and [`DateTime::Latest`] represents plus and
 //! minus infinity, respectively.
 //! * Besides finite durations, [`Duration::Infinity`] represents an infinite duration.
-//! * [`Durations`][`Duration`] can be added or subtracted from [`DateTimes`][`DateTime`].
-//! * [`Durations`][`Duration`] can be added or subtracted from each other and implement
+//! * [`Durations`][`Duration`] can be added to or subtracted from [`DateTimes`][`DateTime`].
+//! * [`Durations`][`Duration`] can be added to or subtracted from each other and implement
 //! [`Sum`][`std::iter::Sum`].
 //! * [`DateTimes`][`DateTime`] can be subtracted from each other to produce a [`Duration`].
 //! * [`Durations`][`Duration`] and [`DateTimes`][`DateTime`] are total ordered. (They implement

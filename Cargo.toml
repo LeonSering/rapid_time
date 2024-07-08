@@ -1,6 +1,6 @@
 [package]
 name = "rapid_time"
-version = "0.1.1"
+version = "0.1.2"
 edition = "2021"
 license = "MIT"
 description = "A library for datetimes and durations, which are useful to model times in combinatorial optimization problems."

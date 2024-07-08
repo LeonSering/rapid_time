@@ -2,6 +2,18 @@
 name = "rapid_time"
 version = "0.1.0"
 edition = "2021"
+license = "MIT"
+description = "A library for datetimes and durations, which are useful to model times in combinatorial optimization problems."
+keyword = "time, date, datetime, duration, leap year"
+categories = ["time-and-date"]
+repository = "https://github.com/LeonSering/rapid_time"
+readme = "README.md"
+authors = ["Leon Sering"]
+include = [
+    "**/*.rs",
+    "Cargo.toml",
+    "README.md",
+]
 
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
